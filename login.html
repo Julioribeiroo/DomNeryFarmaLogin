@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/stylelogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="content primeiro-conteudo">
+            <div class="primeira-coluna">
+                <h2 class="title title-primeiro">Faça login!</h2>
+                <p class="description description-primeira">Entre com seus dados</p>
+                <p class="description description-primeira">A DomNeryFarma fica feliz em ver você novamente!</p>
+                <button id="signin" class="btn btn-primeiro">Voltar ao login</button>
+            </div>
+            <div class="segunda-coluna">
+                <h2 class="title title-segundo">Novo aqui? Crie sua conta!</h2>
+                <p class="description description-segunda">Ficamos contentes em receber você!</p>
+                <p class="description description-segunda">Crie sua conta</p>
+                <form class="form">
+                    <a class="btn btn-terceiro" href="cadastro.html" style="color: black"> Criar </a>
+                </form>
+            </div>
+        </div>
+        <div class="content segundo-conteudo">
+            <div class="primeira-coluna">
+                <h2 class="title title-primeiro">Crie seu cadastro!</h2>
+                <p class="descripton description-primeira">Comece suas compras!</p>
+                <button id="signup" class="btn btn-primeiro">Criar</button>
+            </div>
+            <div class="segunda-coluna">
+                <h2 class="title title-segundo">Digite seus dados</h2>
+                <p class="description description-segunda">Ficamos contentes em receber você!</p>
+                <form class="form form">
+                    <label class="label-input">
+                        <i class="fa-solid fa-user mudar-icone"></i>
+                        <input type="text" placeholder="Nome">
+                    </label>
+
+                    <label class="label-input">
+                        <i class="fa-solid fa-lock mudar-icone"></i>
+                        <input type="password" placeholder="Senha">
+                    </label>
+                    <a class="password" href="#">Esqueceu sua senha?</a>
+                </form>
+                <form class="form" action="index.html" method="post">
+                    <button class="btn btn-segundo" style="color: black">Fazer login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/app.js"></script>
+</body>
+
+</html>
